@@ -337,7 +337,7 @@ AFRAME.registerComponent('avatar-replayer', {
     rightEyeMesh.add(rightEyeBallMesh);
     headMesh.add(rightEyeMesh);
 
-    cameraEl.setObject3D('replayerMesh', headMesh);
+    //cameraEl.setObject3D('replayerMesh', headMesh);
   },
 
   /**

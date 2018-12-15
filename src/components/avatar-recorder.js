@@ -165,7 +165,7 @@ AFRAME.registerComponent('avatar-recorder', {
     });
     this.recordingData = this.getJSONData();
     this.storeRecording(this.recordingData);
-
+    return this.recordingData;
     if (this.data.autoPlay) {
       this.replayRecording();
     }
